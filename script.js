@@ -10,3 +10,9 @@ generateButton.addEventListener('click', () => {
         qrCodeImage.src = `https://api.qrserver.com/v1/create-qr-code/?data=${text}&size=200x200`;
     }
 });
+
+function myfunction(){
+    alert("Your QR-Generated");
+    const popup = document.getElementById("popup");
+      popup.style.display = "block";
+}
